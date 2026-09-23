@@ -1,6 +1,5 @@
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/banner.svg" alt="Jonethon Coutinho - Desenvolvedor Backend" width="100%">
+<img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/banner-laranja.svg" alt="Jonethon Coutinho - Desenvolvedor Backend" width="100%">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=1000&color=F28C52&center=true&vCenter=true&width=650&lines=Desenvolvedor+Backend+%7C+Node.js+%26+Express;TypeScript+%7C+Docker+%7C+CI/CD;Construindo+APIs+e+sistemas+de+backend;Sempre+aprendendo,+um+commit+de+cada+vez)](https://git.io/typing-svg)
 
