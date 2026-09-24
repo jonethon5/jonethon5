@@ -60,16 +60,15 @@ Desenvolvedor backend com Node.js, com experiência em um ERP multi-loja em prod
 
 *As estatísticas refletem só o código público, não a minha experiência.*
 
-<!--
-PAC-MAN: ative depois que o workflow do fork ficar verde.
-Para ativar, apague a linha que abre este comentário e a linha que o fecha.
-
 ---
 
 ## 👾 Contribuições
 
-![Pac-Man](https://github.com/jonethon5/github-pacman/raw/output/pacman-contribution-graph.svg)
--->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jonethon5/github-pacman/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jonethon5/github-pacman/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man comendo o meu gráfico de contribuições" src="https://raw.githubusercontent.com/jonethon5/github-pacman/output/pacman-contribution-graph.svg">
+</picture>
 
 ---
 
