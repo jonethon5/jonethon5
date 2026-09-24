@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/banner-laranja.svg" alt="Jonethon Coutinho - Desenvolvedor Backend" width="100%">
+<a href="https://github.com/jonethon5?tab=repositories"><img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/banner-nome.svg" alt="Jonethon Coutinho - Desenvolvedor Backend" width="100%"></a>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=1000&color=F28C52&center=true&vCenter=true&width=650&lines=Desenvolvedor+Backend+%7C+Node.js+%26+Express;TypeScript+%7C+Docker+%7C+CI/CD;Construindo+APIs+e+sistemas+de+backend;Sempre+aprendendo,+um+commit+de+cada+vez)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=1000&color=F28C52&center=true&vCenter=true&width=650&lines=Desenvolvedor+Backend+%7C+Node.js+%26+Express;TypeScript+%7C+Docker+%7C+CI/CD;Construindo+APIs+e+sistemas+de+backend;Sempre+aprendendo,+um+commit+de+cada+vez)](https://github.com/jonethon5?tab=repositories)
 
 ![Foco](https://img.shields.io/badge/Foco-Backend-F28C52?style=flat-square&labelColor=1E293B) ![Stack](https://img.shields.io/badge/Stack-Node.js-F28C52?style=flat-square&labelColor=1E293B) ![Formação](https://img.shields.io/badge/Forma%C3%A7%C3%A3o-ADS-F28C52?style=flat-square&labelColor=1E293B)
 
@@ -18,7 +18,7 @@ Desenvolvedor backend com Node.js, com experiência em um ERP multi-loja em prod
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/tecnologias-laranja.svg" alt="Tecnologias. Back-end: Node.js, Express, TypeScript, MySQL, Sequelize. Front-end: JavaScript, HTML5, CSS3. Ferramentas: Docker, GitHub Actions, Git, GitHub, Jest, Postman, VS Code." width="100%">
+<a href="https://github.com/jonethon5?tab=repositories"><img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/tecnologias-grid.svg" alt="Tecnologias. Back-end: Node.js, Express, TypeScript, MySQL, Sequelize. Front-end: JavaScript, HTML5, CSS3. Ferramentas: Docker, GitHub Actions, Git, GitHub, Jest, Postman, VS Code." width="100%"></a>
 
 </div>
 
@@ -58,7 +58,7 @@ Desenvolvedor backend com Node.js, com experiência em um ERP multi-loja em prod
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/profile-3d-contrib/profile-night-rainbow.svg" alt="Meu calendário de contribuições em 3D, com pizza de linguagens e radar de atividade" width="100%">
+<a href="https://github.com/jonethon5"><img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/profile-3d-contrib/profile-night-rainbow.svg" alt="Meu calendário de contribuições em 3D, com pizza de linguagens e radar de atividade" width="100%"></a>
 
 </div>
 
@@ -66,11 +66,13 @@ Desenvolvedor backend com Node.js, com experiência em um ERP multi-loja em prod
 
 ## 👾 Contribuições
 
+<a href="https://github.com/jonethon5/github-pacman">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jonethon5/github-pacman/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jonethon5/github-pacman/output/pacman-contribution-graph.svg">
   <img alt="Pac-Man comendo o meu gráfico de contribuições" src="https://raw.githubusercontent.com/jonethon5/github-pacman/output/pacman-contribution-graph.svg">
 </picture>
+</a>
 
 ---
 
