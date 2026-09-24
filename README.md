@@ -46,11 +46,13 @@ Desenvolvedor backend com Node.js, com experiência em um ERP multi-loja em prod
 
 ## 📘 Meus projetos
 
-<a href="https://github.com/jonethon5/estante-viva"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=jonethon5&repo=estante-viva&theme=react&bg_color=1F222E&title_color=4DA8FF&hide_border=true&icon_color=4DA8FF&show_icons=false"></a>
-<a href="https://github.com/jonethon5/space-defender-pygame"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=jonethon5&repo=space-defender-pygame&theme=react&bg_color=1F222E&title_color=4DA8FF&hide_border=true&icon_color=4DA8FF&show_icons=false"></a>
-<a href="https://github.com/jonethon5/logica-de-programacao-em-python"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=jonethon5&repo=logica-de-programacao-em-python&theme=react&bg_color=1F222E&title_color=4DA8FF&hide_border=true&icon_color=4DA8FF&show_icons=false"></a>
-<a href="https://github.com/jonethon5/pig-game"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=jonethon5&repo=pig-game&theme=react&bg_color=1F222E&title_color=4DA8FF&hide_border=true&icon_color=4DA8FF&show_icons=false"></a>
-<a href="https://github.com/jonethon5/adivinhe-meu-numero"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=jonethon5&repo=adivinhe-meu-numero&theme=react&bg_color=1F222E&title_color=4DA8FF&hide_border=true&icon_color=4DA8FF&show_icons=false"></a>
+<a href="https://github.com/jonethon5/estante-viva"><img width="49%" src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/card-estante-viva.svg" alt="estante-viva"></a>
+<a href="https://github.com/jonethon5/space-defender-pygame"><img width="49%" src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/card-space-defender.svg" alt="space-defender-pygame"></a>
+<a href="https://github.com/jonethon5/logica-de-programacao-em-python"><img width="49%" src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/card-logica-python.svg" alt="logica-de-programacao-em-python"></a>
+<a href="https://github.com/jonethon5/pig-game"><img width="49%" src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/card-pig-game.svg" alt="pig-game"></a>
+<a href="https://github.com/jonethon5/adivinhe-meu-numero"><img width="49%" src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/card-adivinhe-numero.svg" alt="adivinhe-meu-numero"></a>
+
+[![Ver todos os repositórios](https://img.shields.io/badge/Ver%20todos%20os%20reposit%C3%B3rios-1F222E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jonethon5?tab=repositories)
 
 <!--
 Ative depois de limpar o node_modules e criar a descrição:
