@@ -20,7 +20,7 @@ Desenvolvedor backend com Node.js, com experiência em um ERP multi-loja em prod
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/tecnologias.svg" alt="Tecnologias: Node.js, Express, JavaScript, TypeScript, MySQL, Sequelize, Docker, GitHub Actions, Git, GitHub, Jest, Postman, VS Code, HTML5 e CSS3" width="100%">
+<img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/tecnologias-grupos.svg" alt="Tecnologias. Back-end: Node.js, Express, TypeScript, MySQL, Sequelize. Front-end: JavaScript, HTML5, CSS3. Ferramentas: Docker, GitHub Actions, Git, GitHub, Jest, Postman, VS Code." width="100%">
 
 </div>
 
