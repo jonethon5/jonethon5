@@ -53,10 +53,14 @@ Desenvolvedor backend com Node.js, com experiência em um ERP multi-loja em prod
 [![Ver todos os repositórios](https://img.shields.io/badge/Ver%20todos%20os%20reposit%C3%B3rios-1F222E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jonethon5?tab=repositories)
 
 ---
+
 ## 📊 Estatísticas
 
-<img width="49%" src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/grafico-resumo.svg" alt="Resumo dos repositórios públicos">
-<img width="49%" src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/grafico-linguagens.svg" alt="Linguagens mais usadas nos projetos em destaque: Python 66,5%, JavaScript 18,9%, HTML 10,2%, CSS 4,4%">
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/profile-3d-contrib/profile-night-rainbow.svg" alt="Meu calendário de contribuições em 3D, com pizza de linguagens e radar de atividade" width="100%">
+
+</div>
 
 ---
 
