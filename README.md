@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/banner-laranja.svg" alt="Jonethon Coutinho - Desenvolvedor Backend" width="100%">
+<img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/banner-azul.svg" alt="Jonethon Coutinho - Desenvolvedor Backend" width="100%">
 
 <img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/super-choque.png" alt="Super Choque" width="150">&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/super-choque-estrela.png" alt="Super Choque em uma estrela" width="150">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=1000&color=F28C52&center=true&vCenter=true&width=650&lines=Desenvolvedor+Backend+%7C+Node.js+%26+Express;TypeScript+%7C+Docker+%7C+CI/CD;Construindo+APIs+e+sistemas+de+backend;Sempre+aprendendo,+um+commit+de+cada+vez)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=1000&color=4DA8FF&center=true&vCenter=true&width=650&lines=Desenvolvedor+Backend+%7C+Node.js+%26+Express;TypeScript+%7C+Docker+%7C+CI/CD;Construindo+APIs+e+sistemas+de+backend;Sempre+aprendendo,+um+commit+de+cada+vez)](https://git.io/typing-svg)
 
-![Foco](https://img.shields.io/badge/Foco-Backend-F28C52?style=flat-square&labelColor=1E293B) ![Stack](https://img.shields.io/badge/Stack-Node.js-F28C52?style=flat-square&labelColor=1E293B) ![Formação](https://img.shields.io/badge/Forma%C3%A7%C3%A3o-ADS-F28C52?style=flat-square&labelColor=1E293B)
+![Foco](https://img.shields.io/badge/Foco-Backend-4DA8FF?style=flat-square&labelColor=1E293B) ![Stack](https://img.shields.io/badge/Stack-Node.js-4DA8FF?style=flat-square&labelColor=1E293B) ![Formação](https://img.shields.io/badge/Forma%C3%A7%C3%A3o-ADS-4DA8FF?style=flat-square&labelColor=1E293B)
 
 </div>
 
@@ -42,8 +42,8 @@ Desenvolvedor backend com Node.js, com experiência em um ERP multi-loja em prod
 
 ## 📘 Meus projetos
 
-<a href="https://github.com/jonethon5/estante-viva"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=jonethon5&repo=estante-viva&theme=react&bg_color=1F222E&title_color=F28C52&hide_border=true&icon_color=F28C52&show_icons=false"></a>
-<a href="https://github.com/jonethon5/logica-de-programacao-em-python"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=jonethon5&repo=logica-de-programacao-em-python&theme=react&bg_color=1F222E&title_color=F28C52&hide_border=true&icon_color=F28C52&show_icons=false"></a>
+<a href="https://github.com/jonethon5/estante-viva"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=jonethon5&repo=estante-viva&theme=react&bg_color=1F222E&title_color=4DA8FF&hide_border=true&icon_color=4DA8FF&show_icons=false"></a>
+<a href="https://github.com/jonethon5/logica-de-programacao-em-python"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=jonethon5&repo=logica-de-programacao-em-python&theme=react&bg_color=1F222E&title_color=4DA8FF&hide_border=true&icon_color=4DA8FF&show_icons=false"></a>
 
 [![Ver todos os repositórios](https://img.shields.io/badge/Ver%20todos%20os%20reposit%C3%B3rios-1F222E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jonethon5?tab=repositories)
 
