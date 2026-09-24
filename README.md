@@ -1,12 +1,10 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/banner-azul.svg" alt="Jonethon Coutinho - Desenvolvedor Backend" width="100%">
+<img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/banner-laranja.svg" alt="Jonethon Coutinho - Desenvolvedor Backend" width="100%">
 
-<img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/super-choque.png" alt="Super Choque" width="150">&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/super-choque-estrela.png" alt="Super Choque em uma estrela" width="150">
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=1000&color=F28C52&center=true&vCenter=true&width=650&lines=Desenvolvedor+Backend+%7C+Node.js+%26+Express;TypeScript+%7C+Docker+%7C+CI/CD;Construindo+APIs+e+sistemas+de+backend;Sempre+aprendendo,+um+commit+de+cada+vez)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=1000&color=4DA8FF&center=true&vCenter=true&width=650&lines=Desenvolvedor+Backend+%7C+Node.js+%26+Express;TypeScript+%7C+Docker+%7C+CI/CD;Construindo+APIs+e+sistemas+de+backend;Sempre+aprendendo,+um+commit+de+cada+vez)](https://git.io/typing-svg)
-
-![Foco](https://img.shields.io/badge/Foco-Backend-4DA8FF?style=flat-square&labelColor=1E293B) ![Stack](https://img.shields.io/badge/Stack-Node.js-4DA8FF?style=flat-square&labelColor=1E293B) ![Formação](https://img.shields.io/badge/Forma%C3%A7%C3%A3o-ADS-4DA8FF?style=flat-square&labelColor=1E293B)
+![Foco](https://img.shields.io/badge/Foco-Backend-F28C52?style=flat-square&labelColor=1E293B) ![Stack](https://img.shields.io/badge/Stack-Node.js-F28C52?style=flat-square&labelColor=1E293B) ![Formação](https://img.shields.io/badge/Forma%C3%A7%C3%A3o-ADS-F28C52?style=flat-square&labelColor=1E293B)
 
 </div>
 
@@ -20,7 +18,7 @@ Desenvolvedor backend com Node.js, com experiência em um ERP multi-loja em prod
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/tecnologias-grupos.svg" alt="Tecnologias. Back-end: Node.js, Express, TypeScript, MySQL, Sequelize. Front-end: JavaScript, HTML5, CSS3. Ferramentas: Docker, GitHub Actions, Git, GitHub, Jest, Postman, VS Code." width="100%">
+<img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/tecnologias-laranja.svg" alt="Tecnologias. Back-end: Node.js, Express, TypeScript, MySQL, Sequelize. Front-end: JavaScript, HTML5, CSS3. Ferramentas: Docker, GitHub Actions, Git, GitHub, Jest, Postman, VS Code." width="100%">
 
 </div>
 
@@ -46,29 +44,13 @@ Desenvolvedor backend com Node.js, com experiência em um ERP multi-loja em prod
 
 ## 📘 Meus projetos
 
-<a href="https://github.com/jonethon5/estante-viva"><img width="49%" src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/card-estante-viva.svg" alt="estante-viva"></a>
-<a href="https://github.com/jonethon5/space-defender-pygame"><img width="49%" src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/card-space-defender.svg" alt="space-defender-pygame"></a>
-<a href="https://github.com/jonethon5/logica-de-programacao-em-python"><img width="49%" src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/card-logica-python.svg" alt="logica-de-programacao-em-python"></a>
-<a href="https://github.com/jonethon5/pig-game"><img width="49%" src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/card-pig-game.svg" alt="pig-game"></a>
-<a href="https://github.com/jonethon5/adivinhe-meu-numero"><img width="49%" src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/card-adivinhe-numero.svg" alt="adivinhe-meu-numero"></a>
+<a href="https://github.com/jonethon5/estante-viva"><img width="32%" src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/projeto-estante-viva.svg" alt="estante-viva"></a>
+<a href="https://github.com/jonethon5/space-defender-pygame"><img width="32%" src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/projeto-space-defender.svg" alt="space-defender-pygame"></a>
+<a href="https://github.com/jonethon5/logica-de-programacao-em-python"><img width="32%" src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/projeto-logica-python.svg" alt="logica-de-programacao-em-python"></a>
+<a href="https://github.com/jonethon5/pig-game"><img width="32%" src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/projeto-pig-game.svg" alt="pig-game"></a>
+<a href="https://github.com/jonethon5/adivinhe-meu-numero"><img width="32%" src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/projeto-adivinhe-numero.svg" alt="adivinhe-meu-numero"></a>
 
 [![Ver todos os repositórios](https://img.shields.io/badge/Ver%20todos%20os%20reposit%C3%B3rios-1F222E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jonethon5?tab=repositories)
-
-<!--
-Ative depois de limpar o node_modules e criar a descrição:
-<a href="https://github.com/jonethon5/crud-treino"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=jonethon5&repo=crud-treino&theme=react&bg_color=1F222E&title_color=4DA8FF&hide_border=true&icon_color=4DA8FF&show_icons=false"></a>
--->
-
-[![Ver todos os repositórios](https://img.shields.io/badge/Ver%20todos%20os%20reposit%C3%B3rios-1F222E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jonethon5?tab=repositories)
-
----
-
-## 📊 Estatísticas
-
-<a href="https://github.com/anuraghazra/github-readme-stats"><img width="49%" src="https://github-readme-stats.vercel.app/api/?username=jonethon5&show_icons=true&include_all_commits=true&hide_rank=true&custom_title=Estat%C3%ADsticas%20do%20GitHub&theme=react&bg_color=1F222E&title_color=4DA8FF&icon_color=4DA8FF&hide_border=true"></a>
-<a href="https://github.com/anuraghazra/github-readme-stats"><img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jonethon5&layout=donut&langs_count=5&hide=html,css&custom_title=Linguagens%20mais%20usadas&theme=react&bg_color=1F222E&title_color=4DA8FF&hide_border=true"></a>
-
-*As estatísticas refletem só o código público, não a minha experiência.*
 
 ---
 
