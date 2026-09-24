@@ -18,25 +18,11 @@ Desenvolvedor backend com Node.js, com experiência em um ERP multi-loja em prod
 
 ## 🧰 Tecnologias e ferramentas
 
-**Backend**
+<div align="center">
 
-[![Backend](https://skillicons.dev/icons?i=nodejs,express,js,ts)](https://skillicons.dev)
+<img src="https://raw.githubusercontent.com/jonethon5/jonethon5/main/tecnologias.svg" alt="Tecnologias: Node.js, Express, JavaScript, TypeScript, MySQL, Sequelize, Docker, GitHub Actions, Git, GitHub, Jest, Postman, VS Code, HTML5 e CSS3" width="100%">
 
-**Bancos de dados**
-
-[![Bancos de dados](https://skillicons.dev/icons?i=mysql,sequelize)](https://skillicons.dev)
-
-**DevOps**
-
-[![DevOps](https://skillicons.dev/icons?i=docker,githubactions,git,github)](https://skillicons.dev)
-
-**Testes e ferramentas**
-
-[![Ferramentas](https://skillicons.dev/icons?i=jest,postman,vscode)](https://skillicons.dev)
-
-**Front-end**
-
-[![Front-end](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
+</div>
 
 ---
 
