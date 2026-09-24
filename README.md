@@ -16,9 +16,27 @@ Desenvolvedor backend com Node.js, com experiência em um ERP multi-loja em prod
 
 ---
 
-## 🛠️ Linguagens e Tecnologias
+## 🧰 Tecnologias e ferramentas
 
-[![Tecnologias](https://skillicons.dev/icons?i=js,ts,nodejs,express,mysql,sequelize,docker,githubactions,git,github,jest,postman,html,css,vscode)](https://skillicons.dev)
+**Backend**
+
+[![Backend](https://skillicons.dev/icons?i=nodejs,express,js,ts)](https://skillicons.dev)
+
+**Bancos de dados**
+
+[![Bancos de dados](https://skillicons.dev/icons?i=mysql,sequelize)](https://skillicons.dev)
+
+**DevOps**
+
+[![DevOps](https://skillicons.dev/icons?i=docker,githubactions,git,github)](https://skillicons.dev)
+
+**Testes e ferramentas**
+
+[![Ferramentas](https://skillicons.dev/icons?i=jest,postman,vscode)](https://skillicons.dev)
+
+**Front-end**
+
+[![Front-end](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
 
 ---
 
@@ -47,6 +65,15 @@ Desenvolvedor backend com Node.js, com experiência em um ERP multi-loja em prod
 
 [![Ver todos os repositórios](https://img.shields.io/badge/Ver%20todos%20os%20reposit%C3%B3rios-1F222E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jonethon5?tab=repositories)
 
+---
+
+## 📊 Estatísticas
+
+<a href="https://github.com/anuraghazra/github-readme-stats"><img width="49%" src="https://github-readme-stats.vercel.app/api/?username=jonethon5&show_icons=true&include_all_commits=true&hide_rank=true&custom_title=Estat%C3%ADsticas%20do%20GitHub&theme=react&bg_color=1F222E&title_color=4DA8FF&icon_color=4DA8FF&hide_border=true"></a>
+<a href="https://github.com/anuraghazra/github-readme-stats"><img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jonethon5&layout=donut&langs_count=5&hide=html,css&custom_title=Linguagens%20mais%20usadas&theme=react&bg_color=1F222E&title_color=4DA8FF&hide_border=true"></a>
+
+*As estatísticas refletem só o código público, não a minha experiência.*
+
 <!--
 PAC-MAN: ative depois que o workflow do fork ficar verde.
 Para ativar, apague a linha que abre este comentário e a linha que o fecha.
@@ -56,14 +83,6 @@ Para ativar, apague a linha que abre este comentário e a linha que o fecha.
 ## 👾 Contribuições
 
 ![Pac-Man](https://github.com/jonethon5/github-pacman/raw/output/pacman-contribution-graph.svg)
--->
-
-<!--
-GRÁFICO DE LINGUAGENS: ative quando houver mais repositórios públicos.
-
-[![Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=jonethon5&layout=donut&langs_count=6)](https://github.com/anuraghazra/github-readme-stats)
-
-Obs.: o gráfico mostra só o código público, não o meu nível de experiência.
 -->
 
 ---
