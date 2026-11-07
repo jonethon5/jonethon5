@@ -41,11 +41,11 @@ Estudante de Análise e Desenvolvimento de Sistemas na UNINTER, com previsão de
 
 <div align="center">
 
-<img alt="Estatísticas do GitHub" src="https://raw.githubusercontent.com/jonethon5/jonethon5/output/estatisticas.svg">
+<img alt="Estatísticas do GitHub" src="https://raw.githubusercontent.com/jonethon5/jonethon5/output/estatisticas-v3.svg">
 
 <br><br>
 
-<img alt="Drone Orbe invadindo o gráfico de commits" src="https://raw.githubusercontent.com/jonethon5/jonethon5/output/drone-v2.svg">
+<img alt="Drone invadindo o gráfico de commits" src="https://raw.githubusercontent.com/jonethon5/jonethon5/output/drone-v2.svg">
 
 </div>
 
