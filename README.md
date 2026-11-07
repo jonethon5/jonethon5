@@ -2,10 +2,11 @@
 
 <img alt="Jonethon Coutinho, desenvolvedor backend Node.js" src="banner.svg">
 
-<br>
+<br><br>
 
-<a href="https://www.linkedin.com/in/jonethon"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-contato-19E3FF?style=for-the-badge&logo=linkedin&logoColor=0A0A12&labelColor=0A0A12"></a>
-<a href="https://github.com/jonethon5?tab=repositories"><img alt="Repositórios" src="https://img.shields.io/badge/GitHub-repositórios-F5E642?style=for-the-badge&logo=github&logoColor=F5E642&labelColor=0A0A12"></a>
+<a href="https://www.linkedin.com/in/jonethon"><img alt="LinkedIn" src="btn-linkedin.svg"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/jonethon5"><img alt="GitHub" src="btn-github.svg"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/jonethon5?tab=repositories"><img alt="Repositórios" src="btn-repos.svg"></a>
 
 </div>
 

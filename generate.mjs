@@ -77,7 +77,7 @@ function build(weeks) {
   // ---------- simulação do voo ----------
   const targets = cells.filter((c) => c.level > 0);
   const n = Math.max(1, targets.length);
-  const shot = Math.min(1.5, 70 / n); // segundos por alvo (loop de no máx. ~70 s)
+  const shot = Math.min(0.85, 45 / n); // segundos por alvo (loop de no máx. ~70 s)
   const start = 1.2;
 
   let pos = { x: PAD_X + 30, y: TOP + gridH / 2 };
