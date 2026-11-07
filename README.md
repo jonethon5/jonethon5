@@ -1,6 +1,6 @@
 <div align="center">
 
-<img alt="Jonethon Coutinho, desenvolvedor backend Node.js" src="assets/banner.svg">
+<img alt="Jonethon Coutinho, desenvolvedor backend Node.js" src="banner.svg">
 
 <br>
 
@@ -19,11 +19,11 @@ Estudante de Análise e Desenvolvimento de Sistemas na UNINTER, com previsão de
 
 <div align="center">
 
-<img alt="Resultados em produção" src="assets/metricas.svg">
+<img alt="Resultados em produção" src="metricas.svg">
 
 <br><br>
 
-<img alt="Tecnologias e ferramentas" src="assets/tech-grid.svg">
+<img alt="Tecnologias e ferramentas" src="tech-grid.svg">
 
 </div>
 
@@ -31,7 +31,7 @@ Estudante de Análise e Desenvolvimento de Sistemas na UNINTER, com previsão de
 
 <div align="center">
 
-<img alt="Projetos em destaque: stock-ledger-api (concluído) e smart-triage-api (em andamento, 30%)" src="assets/projetos.svg">
+<img alt="Projetos em destaque: stock-ledger-api (concluído) e smart-triage-api (em andamento, 30%)" src="projetos.svg">
 
 <br>
 
