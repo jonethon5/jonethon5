@@ -1,12 +1,12 @@
 <div align="center">
 
-<img alt="Jonethon Coutinho, desenvolvedor backend Node.js" src="banner-v2.svg">
+<a href="https://github.com/jonethon5?tab=repositories"><img alt="Jonethon Coutinho, desenvolvedor backend Node.js" src="banner-v3.svg"></a>
 
 <br><br>
 
-<a href="https://www.linkedin.com/in/jonethon"><img alt="LinkedIn" src="btn-linkedin.svg?v=2"></a>&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/jonethon5"><img alt="GitHub" src="btn-github.svg?v=2"></a>&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/jonethon5?tab=repositories"><img alt="Repositórios" src="btn-repos.svg?v=2"></a>
+<a href="https://www.linkedin.com/in/jonethon"><img alt="LinkedIn" src="btn-linkedin.svg"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/jonethon5"><img alt="GitHub" src="btn-github.svg"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/jonethon5?tab=repositories"><img alt="Repositórios" src="btn-repos.svg"></a>
 
 </div>
 
@@ -32,11 +32,8 @@ Estudante de Análise e Desenvolvimento de Sistemas na UNINTER, com previsão de
 
 <div align="center">
 
-<img alt="Projetos em destaque: stock-ledger-api (concluído) e smart-triage-api (em andamento, 30%)" src="projetos.svg">
-
-<br>
-
-<a href="https://github.com/jonethon5/stock-ledger-api"><img alt="Ver stock-ledger-api" src="https://img.shields.io/badge/ver-stock--ledger--api-3DFF8A?style=flat-square&labelColor=0A0A12"></a>
+<a href="https://github.com/jonethon5/stock-ledger-api"><img alt="stock-ledger-api: concluído, 100%" src="projeto-stock-ledger-api.svg" width="49%"></a>&nbsp;
+<a href="https://github.com/jonethon5/smart-triage-api"><img alt="smart-triage-api: em andamento, 30%" src="projeto-smart-triage-api.svg" width="49%"></a>
 
 </div>
 
@@ -44,11 +41,11 @@ Estudante de Análise e Desenvolvimento de Sistemas na UNINTER, com previsão de
 
 <div align="center">
 
-<img alt="Estatísticas do GitHub" src="https://raw.githubusercontent.com/jonethon5/jonethon5/output/estatisticas.svg?v=2">
+<img alt="Estatísticas do GitHub" src="https://raw.githubusercontent.com/jonethon5/jonethon5/output/estatisticas.svg">
 
 <br><br>
 
-<img alt="Drone invadindo o gráfico de commits" src="https://raw.githubusercontent.com/jonethon5/jonethon5/output/drone-v2.svg">
+<img alt="Drone Orbe invadindo o gráfico de commits" src="https://raw.githubusercontent.com/jonethon5/jonethon5/output/drone-v2.svg">
 
 </div>
 
