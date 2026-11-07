@@ -25,17 +25,17 @@ jobs:
         with:
           node-version: 22
 
-      - name: Gerar drone.svg
+      - name: Gerar drone
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: ${{ github.repository_owner }}
         run: node generate.mjs dist/drone-v2.svg
 
-      - name: Gerar estatisticas.svg
+      - name: Gerar estatisticas
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: ${{ github.repository_owner }}
-        run: node stats.mjs dist/estatisticas.svg
+        run: node stats.mjs dist/estatisticas-v3.svg
 
       - name: Publicar na branch output
         uses: crazy-max/ghaction-github-pages@v4
