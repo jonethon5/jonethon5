@@ -48,7 +48,7 @@ Estudante de Análise e Desenvolvimento de Sistemas na UNINTER, com previsão de
 
 <br><br>
 
-<img alt="Drone Orbe invadindo o gráfico de commits" src="https://raw.githubusercontent.com/jonethon5/jonethon5/output/drone.svg?v=2">
+<img alt="Drone invadindo o gráfico de commits" src="https://raw.githubusercontent.com/jonethon5/jonethon5/output/drone-v2.svg">
 
 </div>
 
