@@ -1,12 +1,12 @@
 <div align="center">
 
-<img alt="Jonethon Coutinho, desenvolvedor backend Node.js" src="banner.svg">
+<img alt="Jonethon Coutinho, desenvolvedor backend Node.js" src="banner.svg?v=2">
 
 <br><br>
 
-<a href="https://www.linkedin.com/in/jonethon"><img alt="LinkedIn" src="btn-linkedin.svg"></a>&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/jonethon5"><img alt="GitHub" src="btn-github.svg"></a>&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/jonethon5?tab=repositories"><img alt="Repositórios" src="btn-repos.svg"></a>
+<a href="https://www.linkedin.com/in/jonethon"><img alt="LinkedIn" src="btn-linkedin.svg?v=2"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/jonethon5"><img alt="GitHub" src="btn-github.svg?v=2"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/jonethon5?tab=repositories"><img alt="Repositórios" src="btn-repos.svg?v=2"></a>
 
 </div>
 
@@ -44,11 +44,11 @@ Estudante de Análise e Desenvolvimento de Sistemas na UNINTER, com previsão de
 
 <div align="center">
 
-<img alt="Estatísticas do GitHub" src="https://raw.githubusercontent.com/jonethon5/jonethon5/output/estatisticas.svg">
+<img alt="Estatísticas do GitHub" src="https://raw.githubusercontent.com/jonethon5/jonethon5/output/estatisticas.svg?v=2">
 
 <br><br>
 
-<img alt="Drone Orbe invadindo o gráfico de commits" src="https://raw.githubusercontent.com/jonethon5/jonethon5/output/drone.svg">
+<img alt="Drone Orbe invadindo o gráfico de commits" src="https://raw.githubusercontent.com/jonethon5/jonethon5/output/drone.svg?v=2">
 
 </div>
 
