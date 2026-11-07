@@ -29,7 +29,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: ${{ github.repository_owner }}
-        run: node generate.mjs dist/drone.svg
+        run: node generate.mjs dist/drone-v2.svg
 
       - name: Gerar estatisticas.svg
         env:
