@@ -16,6 +16,8 @@ const C = {
   dead: "#14111C",
   flash1: "#FF2E88",
   flash2: "#19E3FF",
+  yellow: "#F5E642",
+  burnt: "#4A1038",
   text: "#8A8AA0",
   cyan: "#19E3FF",
   magenta: "#FF2E88",
@@ -118,11 +120,11 @@ function build(weeks) {
 
   // ---------- SVG ----------
   const out = [];
-  out.push(`<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Drone Orbe voando pelo gráfico de commits e atirando nas contribuições">`);
-  out.push(`<title>Drone Orbe invadindo o gráfico de commits</title>`);
+  out.push(`<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Drone voando pelo gráfico de commits e atirando nas contribuições">`);
+  out.push(`<title>Drone invadindo o gráfico de commits</title>`);
   out.push(`<rect width="${W}" height="${H}" rx="6" fill="${C.bg}" stroke="${C.border}"/>`);
   out.push(`<text x="${PAD_X}" y="26" font-family="monospace" font-size="12" fill="${C.cyan}" letter-spacing="1">// RASTREADOR DE COMMITS</text>`);
-  out.push(`<text x="${W - PAD_X}" y="26" font-family="monospace" font-size="12" fill="${C.text}" text-anchor="end">ORBE-01 @${USER}</text>`);
+  out.push(`<text x="${W - PAD_X}" y="26" font-family="monospace" font-size="12" fill="${C.text}" text-anchor="end">DRONE-01 @${USER}</text>`);
 
   // células
   const byKey = new Map(order.map((o) => [`${o.tg.c},${o.tg.r}`, o]));
@@ -134,13 +136,24 @@ function build(weeks) {
       continue;
     }
     const h = o.tHit;
-    const kt = [0, h, h + 0.08, h + 0.16, h + 0.24, h + 0.5, end - 0.4, end, T].map(k).join(";");
-    const vals = [base, base, C.flash1, C.flash2, C.flash1, "#2A1830", "#2A1830", base, base].join(";");
+    const kt = [0, h, h + 0.06, h + 0.12, h + 0.2, h + 0.3, h + 0.6, end - 0.4, end, T].map(k).join(";");
+    const vals = [base, base, C.white, C.flash1, C.yellow, C.flash2, C.burnt, C.burnt, base, base].join(";");
     out.push(`<rect x="${cell.x}" y="${cell.y}" width="${S}" height="${S}" rx="2" fill="${base}"><animate attributeName="fill" calcMode="discrete" dur="${f1(T)}s" repeatCount="indefinite" keyTimes="${kt}" values="${vals}"/></rect>`);
-    // anel de explosão
     const cx = cell.x + S / 2, cy = cell.y + S / 2;
-    const ek = [0, h - 0.001, h, h + 0.35, T].map(k).join(";");
-    out.push(`<circle cx="${cx}" cy="${cy}" r="2" fill="none" stroke="${C.magenta}" stroke-width="1.5" opacity="0"><animate attributeName="r" dur="${f1(T)}s" repeatCount="indefinite" keyTimes="${ek}" values="2;2;2;14;14"/><animate attributeName="opacity" dur="${f1(T)}s" repeatCount="indefinite" keyTimes="${ek}" values="0;0;1;0;0"/></circle>`);
+    const D = f1(T) + "s";
+    // dois anéis de choque
+    const ek = [0, h - 0.001, h, h + 0.4, T].map(k).join(";");
+    out.push(`<circle cx="${cx}" cy="${cy}" r="2" fill="none" stroke="${C.yellow}" stroke-width="2" opacity="0"><animate attributeName="r" dur="${D}" repeatCount="indefinite" keyTimes="${ek}" values="2;2;2;19;19"/><animate attributeName="opacity" dur="${D}" repeatCount="indefinite" keyTimes="${ek}" values="0;0;1;0;0"/></circle>`);
+    const ek2 = [0, h + 0.05, h + 0.06, h + 0.5, T].map(k).join(";");
+    out.push(`<circle cx="${cx}" cy="${cy}" r="2" fill="none" stroke="${C.magenta}" stroke-width="1.5" opacity="0"><animate attributeName="r" dur="${D}" repeatCount="indefinite" keyTimes="${ek2}" values="2;2;2;26;26"/><animate attributeName="opacity" dur="${D}" repeatCount="indefinite" keyTimes="${ek2}" values="0;0;1;0;0"/></circle>`);
+    // faíscas voando
+    const pc = [C.yellow, C.magenta, C.white, C.cyan, C.yellow, C.magenta];
+    for (let p = 0; p < 6; p++) {
+      const an = (p / 6) * Math.PI * 2 + rnd() * 0.8, ds = 12 + rnd() * 14;
+      const dx = f1(Math.cos(an) * ds), dy = f1(Math.sin(an) * ds);
+      const pk = [0, h - 0.001, h, h + 0.5, T].map(k).join(";");
+      out.push(`<rect x="${f1(cx - 1.2)}" y="${f1(cy - 1.2)}" width="2.4" height="2.4" fill="${pc[p]}" opacity="0"><animateTransform attributeName="transform" type="translate" dur="${D}" repeatCount="indefinite" keyTimes="${pk}" values="0 0;0 0;0 0;${dx} ${dy};${dx} ${dy}"/><animate attributeName="opacity" dur="${D}" repeatCount="indefinite" keyTimes="${pk}" values="0;0;1;0;0"/></rect>`);
+    }
   }
 
   // tiros
@@ -151,42 +164,26 @@ function build(weeks) {
     out.push(`<g opacity="0"><animate attributeName="opacity" dur="${f1(T)}s" repeatCount="indefinite" calcMode="discrete" keyTimes="${kt}" values="0;0;1;1;0;0"/><g transform="translate(${f1(ax)} ${f1(ay)}) rotate(${f1(ang)})"><animateTransform attributeName="transform" type="translate" additive="sum" dur="${f1(T)}s" repeatCount="indefinite" keyTimes="${[0, o.tShoot, o.tHit, T].map(k).join(";")}" values="0 0;0 0;${f1(Math.hypot(bx - ax, by - ay))} 0;${f1(Math.hypot(bx - ax, by - ay))} 0"/><rect x="-7" y="-1.5" width="14" height="3" fill="${C.magenta}"/><rect x="-2" y="-0.8" width="6" height="1.6" fill="${C.white}"/></g></g>`);
   }
 
-  // drone Orbe (sprite 19x12, pixel = 2.4)
-  const sprite = [
-    "......YYYYYYY......",
-    "....YYYYYYYYYYY....",
-    "...YYYYYYYYYYYYY...",
-    "..YYYYYYYYYYYYYYY..",
-    "..YYYYYDDDDDYYYYY..",
-    "CCCCCCDDMMMDDCCCCCC",
-    "..YYYYYDDDDDYYYYY..",
-    "..YYYYYYYYYYYYYYY..",
-    "...YYYYYYYYYYYYY...",
-    "....YYYYYYYYYYY....",
-    "......YYYYYYY......",
-    ".......C.M.C.......",
-  ];
-  const P = 2.4, sw = 19 * P, sh = sprite.length * P;
-  const col = { Y: C.body, D: C.dark, C: C.cyan, M: C.magenta };
-  let rects = "";
-  sprite.forEach((row, r) => {
-    let c = 0;
-    while (c < row.length) {
-      const ch = row[c];
-      if (ch === ".") { c++; continue; }
-      let e = c;
-      while (e < row.length && row[e] === ch) e++;
-      rects += `<rect x="${f1(c * P)}" y="${f1(r * P)}" width="${f1((e - c) * P)}" height="${f1(P)}" fill="${col[ch]}"/>`;
-      c = e;
-    }
-  });
+  // drone de câmera (desenho vetorial, escala 0.15)
   const kts = flight.map((p) => k(p.t)).join(";");
-  const vls = flight.map((p) => `${f1(p.x - sw / 2)} ${f1(p.y - sh / 2)}`).join(";");
+  const vls = flight.map((p) => `${f1(p.x)} ${f1(p.y)}`).join(";");
   const splines = flight.slice(1).map(() => "0.45 0 0.55 1").join(";");
+  const K = "#0A0A12";
   out.push(`<g><animateTransform attributeName="transform" type="translate" dur="${f1(T)}s" repeatCount="indefinite" calcMode="spline" keyTimes="${kts}" keySplines="${splines}" values="${vls}"/>`);
-  out.push(`<g><animateTransform attributeName="transform" type="translate" dur="2.4s" repeatCount="indefinite" values="0 -1.5;0 1.5;0 -1.5"/>${rects}`);
-  out.push(`<rect x="${f1(sw / 2 - 1.2)}" y="${f1(sh - 1)}" width="2.4" height="3" fill="${C.cyan}"><animate attributeName="height" dur="0.3s" repeatCount="indefinite" values="3;6;3"/></rect>`);
-  out.push(`</g></g>`);
+  out.push(`<g transform="scale(0.15)"><animateTransform attributeName="transform" type="translate" additive="sum" dur="2.4s" repeatCount="indefinite" values="0 -10;0 10;0 -10"/>
+<path d="M-205 -10h130v22h-110z M205 -10h-130v22h110z" fill="${C.yellow}" stroke="${K}" stroke-width="7"/>
+<rect x="-215" y="-34" width="24" height="26" rx="5" fill="${C.cyan}" stroke="${K}" stroke-width="6"/><rect x="191" y="-34" width="24" height="26" rx="5" fill="${C.cyan}" stroke="${K}" stroke-width="6"/>
+<ellipse cx="-203" cy="-38" rx="48" ry="6" fill="${C.cyan}" stroke="${K}" stroke-width="5"><animate attributeName="rx" values="48;8;48" dur="0.16s" repeatCount="indefinite"/></ellipse>
+<ellipse cx="203" cy="-38" rx="48" ry="6" fill="${C.cyan}" stroke="${K}" stroke-width="5"><animate attributeName="rx" values="8;48;8" dur="0.16s" repeatCount="indefinite"/></ellipse>
+<rect x="-34" y="-50" width="68" height="20" rx="4" fill="${C.magenta}" stroke="${K}" stroke-width="6"/>
+<path d="M-56 56l-30 18M56 56l30 18" stroke="${C.yellow}" stroke-width="8" stroke-linecap="round"/>
+<circle cx="-92" cy="82" r="24" fill="${C.yellow}" stroke="${K}" stroke-width="6"/><circle cx="-92" cy="82" r="8" fill="${K}"/><circle cx="-92" cy="82" r="4" fill="${C.magenta}"><animate attributeName="opacity" values="1;.2;1" dur="1s" repeatCount="indefinite"/></circle>
+<circle cx="92" cy="82" r="24" fill="${C.yellow}" stroke="${K}" stroke-width="6"/><circle cx="92" cy="82" r="8" fill="${K}"/><circle cx="92" cy="82" r="4" fill="${C.cyan}"><animate attributeName="opacity" values=".2;1;.2" dur="1s" repeatCount="indefinite"/></circle>
+<path d="M-26 56h52l-8 42h-36z" fill="#2A2A4A" stroke="${K}" stroke-width="6"/>
+<circle cx="0" cy="0" r="62" fill="${C.yellow}" stroke="${K}" stroke-width="7"/><circle cx="0" cy="0" r="44" fill="#E0C92A"/>
+<circle cx="0" cy="0" r="38" fill="${K}" stroke="${C.cyan}" stroke-width="7"/><circle cx="0" cy="0" r="26" fill="#1B1B36"/>
+<circle cx="-8" cy="-9" r="8" fill="${C.white}" opacity=".85"/><circle cx="8" cy="9" r="4" fill="${C.cyan}"><animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+</g></g>`);
 
   out.push(`</svg>`);
   return { svg: out.join("\n"), stats: { cols, targets: targets.length, loop: T } };
