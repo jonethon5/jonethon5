@@ -1,6 +1,6 @@
 <div align="center">
 
-<img alt="Jonethon Coutinho, desenvolvedor backend Node.js" src="banner.svg?v=2">
+<img alt="Jonethon Coutinho, desenvolvedor backend Node.js" src="banner-v2.svg">
 
 <br><br>
 
