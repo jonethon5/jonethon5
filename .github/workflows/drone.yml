@@ -1,0 +1,46 @@
+name: Gerar gráfico do drone e estatísticas
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # todo dia, 00:17 em Brasília
+  workflow_dispatch: # permite rodar manualmente
+  push:
+    branches: [main]
+    paths:
+      - "drone/generate.mjs"
+      - "drone/stats.mjs"
+      - ".github/workflows/drone.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Gerar drone.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: node drone/generate.mjs dist/drone.svg
+
+      - name: Gerar estatisticas.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: node drone/stats.mjs dist/estatisticas.svg
+
+      - name: Publicar na branch output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
