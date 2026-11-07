@@ -2,13 +2,13 @@ name: Gerar gráfico do drone e estatísticas
 
 on:
   schedule:
-    - cron: "17 3 * * *" # todo dia, 00:17 em Brasília
-  workflow_dispatch: # permite rodar manualmente
+    - cron: "17 3 * * *"
+  workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - "drone/generate.mjs"
-      - "drone/stats.mjs"
+      - "generate.mjs"
+      - "stats.mjs"
       - ".github/workflows/drone.yml"
 
 permissions:
@@ -29,13 +29,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: ${{ github.repository_owner }}
-        run: node drone/generate.mjs dist/drone.svg
+        run: node generate.mjs dist/drone.svg
 
       - name: Gerar estatisticas.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: ${{ github.repository_owner }}
-        run: node drone/stats.mjs dist/estatisticas.svg
+        run: node stats.mjs dist/estatisticas.svg
 
       - name: Publicar na branch output
         uses: crazy-max/ghaction-github-pages@v4
