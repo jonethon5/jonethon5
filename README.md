@@ -38,9 +38,14 @@ Em busca de uma vaga de desenvolvedor back-end júnior.
 
 ## Projetos em destaque
 
-<a href="https://github.com/jonethon5/smart-triage-api"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jonethon5&repo=smart-triage-api&title_color=ffffff&text_color=c9cacc&icon_color=8b949e&bg_color=0d1117&border_color=30363d" width="49%" /></a>
-<a href="https://github.com/jonethon5/stock-ledger-api"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jonethon5&repo=stock-ledger-api&title_color=ffffff&text_color=c9cacc&icon_color=8b949e&bg_color=0d1117&border_color=30363d" width="49%" /></a>
+<a href="https://github.com/jonethon5/smart-triage-api"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jonethon5&repo=smart-triage-api&title_color=ffffff&text_color=c9cacc&icon_color=8957e5&description_lines_count=3&bg_color=0d1117&border_color=30363d" width="49%" /></a>
+<a href="https://github.com/jonethon5/stock-ledger-api"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jonethon5&repo=stock-ledger-api&title_color=ffffff&text_color=c9cacc&icon_color=8957e5&description_lines_count=3&bg_color=0d1117&border_color=30363d" width="49%" /></a>
 
 - **[Smart Triage API](https://github.com/jonethon5/smart-triage-api)**: triagem de tickets de suporte com classificação por IA (Gemini), autenticação JWT, PostgreSQL, Docker e CI. A IA foi avaliada contra um gabarito próprio: 78,6% de acerto na categoria em 14 tickets, com erros e limites documentados.
 - **[Stock Ledger API](https://github.com/jonethon5/stock-ledger-api)**: controle de estoque com transações e `SELECT ... FOR UPDATE`, validado com teste de 50 débitos simultâneos.
 - **[Portfólio](https://jonethon-portfolio.vercel.app)**
+
+## Estatísticas do GitHub
+
+<a href="https://github.com/jonethon5"><img align="top" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jonethon5&langs_count=4&locale=pt-br&card_width=320&title_color=ffffff&text_color=c9cacc&icon_color=8957e5&bg_color=0d1117&border_color=30363d" alt="Linguagens mais usadas" /></a>
+<a href="https://github.com/jonethon5"><img align="top" src="https://github-readme-stats.vercel.app/api?username=jonethon5&show_icons=true&line_height=27&locale=pt-br&card_width=320&title_color=ffffff&text_color=c9cacc&icon_color=8957e5&bg_color=0d1117&border_color=30363d" alt="Estatísticas do GitHub" /></a>
