@@ -47,5 +47,5 @@ Em busca de uma vaga de desenvolvedor back-end júnior.
 
 ## Estatísticas do GitHub
 
-<a href="https://github.com/jonethon5"><img align="top" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jonethon5&langs_count=4&locale=pt-br&card_width=320&title_color=ffffff&text_color=c9cacc&icon_color=8957e5&bg_color=0d1117&border_color=30363d" alt="Linguagens mais usadas" /></a>
-<a href="https://github.com/jonethon5"><img align="top" src="https://github-readme-stats.vercel.app/api?username=jonethon5&show_icons=true&line_height=27&locale=pt-br&card_width=320&title_color=ffffff&text_color=c9cacc&icon_color=8957e5&bg_color=0d1117&border_color=30363d" alt="Estatísticas do GitHub" /></a>
+<a href="https://github.com/jonethon5"><img align="top" width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jonethon5&langs_count=3&locale=pt-br&title_color=ffffff&text_color=c9cacc&icon_color=8957e5&bg_color=0d1117&border_color=30363d" alt="Linguagens mais usadas" /></a>
+<a href="https://github.com/jonethon5"><img align="top" width="60%" src="https://github-readme-stats.vercel.app/api?username=jonethon5&show_icons=true&line_height=27&locale=pt-br&custom_title=Estat%C3%ADsticas&title_color=ffffff&text_color=c9cacc&icon_color=8957e5&bg_color=0d1117&border_color=30363d" alt="Estatísticas do GitHub" /></a>
